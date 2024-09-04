@@ -1,0 +1,32 @@
+### 테스트
+GET http://localhost:8000/
+
+### 테스트
+POST http://localhost:8000/predict
+Content-Type: application/json
+
+{
+  "amp_temp_1": 38.79,
+  "amp_temp_2": 38.79,
+  "amp_temp_3": 42.12,
+  "amp_temp_4": 42.12,
+  "cpu_temp": 40,
+  "interval": 100.0,
+  "pos_1": 1.5,
+  "pos_2": 651.76,
+  "pos_3": 1.21,
+  "pos_4": 0,
+  "signal_pack": 0,
+  "signal_pick": 0,
+  "speed_1": 0.0,
+  "speed_2": 655.35,
+  "speed_3": 0,
+  "speed_4": 0,
+  "torque_1": 0.26,
+  "torque_2": 1.28,
+  "torque_3": 0.44,
+  "torque_4": 0.05,
+  "vacuum": 20,
+  "signal_pick_count": 0,
+  "signal_pack_count": 0
+}
